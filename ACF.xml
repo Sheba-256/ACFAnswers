@@ -1,0 +1,452 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>SK</Author>
+  <LastAuthor>SK</LastAuthor>
+  <Created>2020-09-14T10:39:57Z</Created>
+  <LastSaved>2020-09-14T12:34:49Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>7755</WindowHeight>
+  <WindowWidth>20490</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s17">
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s18">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Calibri Light" x:Family="Swiss" ss:Size="14"
+    ss:Color="#000000"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="survey">
+  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="47" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:Width="142.5"/>
+   <Column ss:Width="65.25"/>
+   <Column ss:Width="287.25"/>
+   <Column ss:Width="186"/>
+   <Column ss:Width="189.75"/>
+   <Row>
+    <Cell><Data ss:Type="String">type</Data></Cell>
+    <Cell><Data ss:Type="String">name</Data></Cell>
+    <Cell><Data ss:Type="String">label</Data></Cell>
+    <Cell><Data ss:Type="String">hint</Data></Cell>
+    <Cell><Data ss:Type="String">relevant</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">begin_group</Data></Cell>
+    <Cell><Data ss:Type="String">projinfo</Data></Cell>
+    <Cell><Data ss:Type="String">Project Information</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">text</Data></Cell>
+    <Cell><Data ss:Type="String">ProjName</Data></Cell>
+    <Cell><Data ss:Type="String">Project Name</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">select_multiple interviewers</Data></Cell>
+    <Cell><Data ss:Type="String">Interviewer</Data></Cell>
+    <Cell><Data ss:Type="String">Name of Interviewer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">select_one county</Data></Cell>
+    <Cell><Data ss:Type="String">Location</Data></Cell>
+    <Cell><Data ss:Type="String">Geographical Location</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">end_group</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">begin_group</Data></Cell>
+    <Cell><Data ss:Type="String">hhDemo</Data></Cell>
+    <Cell><Data ss:Type="String">HOUSEHOLD DEMOGRAPHICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">integer</Data></Cell>
+    <Cell><Data ss:Type="String">NoOfPleHH</Data></Cell>
+    <Cell><Data ss:Type="String">Number of people in Household</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">text</Data></Cell>
+    <Cell><Data ss:Type="String">gender</Data></Cell>
+    <Cell><Data ss:Type="String">Sex of the Head of Household</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">integer</Data></Cell>
+    <Cell><Data ss:Type="String">f</Data></Cell>
+    <Cell><Data ss:Type="String">How many females?</Data></Cell>
+    <Cell><Data ss:Type="String">Enter numbers only</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">integer</Data></Cell>
+    <Cell><Data ss:Type="String">m</Data></Cell>
+    <Cell><Data ss:Type="String">How many males?</Data></Cell>
+    <Cell><Data ss:Type="String">Enter numbers only</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">integer</Data></Cell>
+    <Cell><Data ss:Type="String">chdnBlwTen</Data></Cell>
+    <Cell><Data ss:Type="String">How many children (under 10 Years)?</Data></Cell>
+    <Cell><Data ss:Type="String">Enter numbers with Children under 10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">end_group</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">begin_group</Data></Cell>
+    <Cell><Data ss:Type="String">hhEconomics</Data></Cell>
+    <Cell><Data ss:Type="String">HOUSEHOLD ECONOMICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">select_one yes_no</Data></Cell>
+    <Cell><Data ss:Type="String">television</Data></Cell>
+    <Cell><Data ss:Type="String">Does the household have a television?</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">select_one yes_no</Data></Cell>
+    <Cell><Data ss:Type="String">radio</Data></Cell>
+    <Cell><Data ss:Type="String">Does the household have a radio?</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">select_one yes_no</Data></Cell>
+    <Cell><Data ss:Type="String">cellphone</Data></Cell>
+    <Cell><Data ss:Type="String">Does the household have a cell-phone?</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">end_group</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">begin_group</Data></Cell>
+    <Cell><Data ss:Type="String">hhEducation</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HOUSEHOLD EDUCATION</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">select_one Educ_Level</Data></Cell>
+    <Cell><Data ss:Type="String">EducLevelHH</Data></Cell>
+    <Cell><Data ss:Type="String">What is the level of education of the head of household?</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">select_multiple Educ_Level</Data></Cell>
+    <Cell><Data ss:Type="String">EducLevelAny</Data></Cell>
+    <Cell><Data ss:Type="String">What is the level of education of anyone in the household?</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">end_group</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">begin_group</Data></Cell>
+    <Cell><Data ss:Type="String">hhEnvi</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HOUSEHOLD ENVIRONMENT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">select_one yes_no</Data></Cell>
+    <Cell><Data ss:Type="String">hasElec</Data></Cell>
+    <Cell><Data ss:Type="String">Does the household have electricity?</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">select_one yes_no</Data></Cell>
+    <Cell><Data ss:Type="String">hasToilet</Data></Cell>
+    <Cell><Data ss:Type="String">Does the household have a latrine or toilet?</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">select_one yes_no</Data></Cell>
+    <Cell><Data ss:Type="String">IsShared</Data></Cell>
+    <Cell><Data ss:Type="String">If &quot;YES&quot; above, is the facility shared?</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s17"><Data ss:Type="String">${hasToilet} = 'yes'</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">end_group</Data></Cell>
+   </Row>
+   <Row ss:Height="18.75">
+    <Cell><Data ss:Type="String">begin_group</Data></Cell>
+    <Cell><Data ss:Type="String">quesTwo</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s67"><Data ss:Type="String">CHILDHELP NON-PROFIT ORGANISATION</Data></Cell>
+   </Row>
+   <Row ss:Index="30">
+    <Cell><Data ss:Type="String">begin_group</Data></Cell>
+    <Cell><Data ss:Type="String">hhDemographics</Data></Cell>
+    <Cell><Data ss:Type="String">HOUSEHOLD DEMOGRAPHICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">integer</Data></Cell>
+    <Cell><Data ss:Type="String">NoOfPleHH</Data></Cell>
+    <Cell><Data ss:Type="String">Number of people in Household</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">text</Data></Cell>
+    <Cell><Data ss:Type="String">gender</Data></Cell>
+    <Cell><Data ss:Type="String">Sex of the Head of Household</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">integer</Data></Cell>
+    <Cell><Data ss:Type="String">f</Data></Cell>
+    <Cell><Data ss:Type="String">How many females?</Data></Cell>
+    <Cell><Data ss:Type="String">Enter numbers only</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">integer</Data></Cell>
+    <Cell><Data ss:Type="String">m</Data></Cell>
+    <Cell><Data ss:Type="String">How many males?</Data></Cell>
+    <Cell><Data ss:Type="String">Enter numbers only</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">integer</Data></Cell>
+    <Cell><Data ss:Type="String">chdnBlwTen</Data></Cell>
+    <Cell><Data ss:Type="String">How many children (under 10 Years)?</Data></Cell>
+    <Cell><Data ss:Type="String">Enter numbers with Children under 10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">end_group</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">begin_group</Data></Cell>
+    <Cell><Data ss:Type="String">childData</Data></Cell>
+    <Cell><Data ss:Type="String">CHILD DATA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">integer</Data></Cell>
+    <Cell><Data ss:Type="String">childAge</Data></Cell>
+    <Cell><Data ss:Type="String">Child Age</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">decimal</Data></Cell>
+    <Cell><Data ss:Type="String">childWeight</Data></Cell>
+    <Cell><Data ss:Type="String">Child Weight (Kg)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">decimal</Data></Cell>
+    <Cell><Data ss:Type="String">childHeight</Data></Cell>
+    <Cell><Data ss:Type="String">Child Height (cm)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">end_group</Data></Cell>
+   </Row>
+   <Row ss:Index="43">
+    <Cell><Data ss:Type="String">begin_group</Data></Cell>
+    <Cell><Data ss:Type="String">adultData</Data></Cell>
+    <Cell><Data ss:Type="String">ADULT DATA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">integer</Data></Cell>
+    <Cell><Data ss:Type="String">adultAge</Data></Cell>
+    <Cell><Data ss:Type="String">Adult Age</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">select_one inc_Src</Data></Cell>
+    <Cell><Data ss:Type="String">incomeSrc</Data></Cell>
+    <Cell><Data ss:Type="String">Adult Income Source</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">end_group</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">end_group</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>10</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>25</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="choices">
+  <Table ss:ExpandedColumnCount="10" ss:ExpandedRowCount="26" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:Width="90.75"/>
+   <Column ss:Width="60"/>
+   <Row>
+    <Cell><Data ss:Type="String">list_name</Data></Cell>
+    <Cell><Data ss:Type="String">name </Data></Cell>
+    <Cell><Data ss:Type="String">label</Data></Cell>
+   </Row>
+   <Row ss:Index="3">
+    <Cell><Data ss:Type="String">interviewers</Data></Cell>
+    <Cell><Data ss:Type="String">mary</Data></Cell>
+    <Cell><Data ss:Type="String">Mary</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">interviewers</Data></Cell>
+    <Cell><Data ss:Type="String">hillary</Data></Cell>
+    <Cell><Data ss:Type="String">Hillary</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">interviewers</Data></Cell>
+    <Cell><Data ss:Type="String">anne</Data></Cell>
+    <Cell><Data ss:Type="String">Anne</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">interviewers</Data></Cell>
+    <Cell><Data ss:Type="String">john</Data></Cell>
+    <Cell><Data ss:Type="String">John</Data></Cell>
+   </Row>
+   <Row ss:Index="8">
+    <Cell><Data ss:Type="String">county</Data></Cell>
+    <Cell><Data ss:Type="String">nairobi</Data></Cell>
+    <Cell><Data ss:Type="String">Nairobi</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">county</Data></Cell>
+    <Cell><Data ss:Type="String">nakuru</Data></Cell>
+    <Cell><Data ss:Type="String">Nakuru</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">county</Data></Cell>
+    <Cell><Data ss:Type="String">mombasa</Data></Cell>
+    <Cell><Data ss:Type="String">Mombasa</Data></Cell>
+   </Row>
+   <Row ss:Index="12">
+    <Cell><Data ss:Type="String">yes_no</Data></Cell>
+    <Cell><Data ss:Type="String">yes</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">yes_no</Data></Cell>
+    <Cell><Data ss:Type="String">no</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s18"><Data ss:Type="String">Choose from Employed, Self-employed, Farming, Business, Pastrolism, None, Other</Data></Cell>
+   </Row>
+   <Row ss:Index="15">
+    <Cell><Data ss:Type="String">Educ_Level</Data></Cell>
+    <Cell><Data ss:Type="String">secondary</Data></Cell>
+    <Cell><Data ss:Type="String">Secondary</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Educ_Level</Data></Cell>
+    <Cell><Data ss:Type="String">tertiary</Data></Cell>
+    <Cell><Data ss:Type="String">Tertiary</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Educ_Level</Data></Cell>
+    <Cell><Data ss:Type="String">university</Data></Cell>
+    <Cell><Data ss:Type="String">University</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Educ_Level</Data></Cell>
+    <Cell><Data ss:Type="String">none</Data></Cell>
+    <Cell><Data ss:Type="String">None</Data></Cell>
+   </Row>
+   <Row ss:Index="20">
+    <Cell><Data ss:Type="String">inc_Src</Data></Cell>
+    <Cell><Data ss:Type="String">employed</Data></Cell>
+    <Cell><Data ss:Type="String">Employed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">inc_Src</Data></Cell>
+    <Cell><Data ss:Type="String">selfEmployed</Data></Cell>
+    <Cell><Data ss:Type="String">Self Employed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">inc_Src</Data></Cell>
+    <Cell><Data ss:Type="String">farming</Data></Cell>
+    <Cell><Data ss:Type="String">Farming</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">inc_Src</Data></Cell>
+    <Cell><Data ss:Type="String">business</Data></Cell>
+    <Cell><Data ss:Type="String">Business</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">inc_Src</Data></Cell>
+    <Cell><Data ss:Type="String">pastrolism</Data></Cell>
+    <Cell><Data ss:Type="String">Patrolism</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">inc_Src</Data></Cell>
+    <Cell><Data ss:Type="String">none</Data></Cell>
+    <Cell><Data ss:Type="String">None</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">inc_Src</Data></Cell>
+    <Cell><Data ss:Type="String">other</Data></Cell>
+    <Cell><Data ss:Type="String">Other</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>18</ActiveRow>
+     <ActiveCol>9</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="settings">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <RangeSelection>R1</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

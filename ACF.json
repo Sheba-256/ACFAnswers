@@ -1,0 +1,324 @@
+[
+ {
+   "type": "begin_group",
+   "name": "projinfo",
+   "label": "Project Information",
+   "hint": "",
+   "relevant": ""
+ },
+ {
+   "type": "text",
+   "name": "ProjName",
+   "label": "Project Name",
+   "hint": "",
+   "relevant": ""
+ },
+ {
+   "type": "select_multiple interviewers",
+   "name": "Interviewer",
+   "label": "Name of Interviewer",
+   "hint": "",
+   "relevant": ""
+ },
+ {
+   "type": "select_one county",
+   "name": "Location",
+   "label": "Geographical Location",
+   "hint": "",
+   "relevant": ""
+ },
+ {
+   "type": "end_group",
+   "name": "",
+   "label": "",
+   "hint": "",
+   "relevant": ""
+ },
+ {
+   "type": "begin_group",
+   "name": "hhDemo",
+   "label": "HOUSEHOLD DEMOGRAPHICS",
+   "hint": "",
+   "relevant": ""
+ },
+ {
+   "type": "integer",
+   "name": "NoOfPleHH",
+   "label": "Number of people in Household",
+   "hint": "",
+   "relevant": ""
+ },
+ {
+   "type": "text",
+   "name": "gender",
+   "label": "Sex of the Head of Household",
+   "hint": "",
+   "relevant": ""
+ },
+ {
+   "type": "integer",
+   "name": "f",
+   "label": "How many females?",
+   "hint": "Enter numbers only",
+   "relevant": ""
+ },
+ {
+   "type": "integer",
+   "name": "m",
+   "label": "How many males?",
+   "hint": "Enter numbers only",
+   "relevant": ""
+ },
+ {
+   "type": "integer",
+   "name": "chdnBlwTen",
+   "label": "How many children (under 10 Years)?",
+   "hint": "Enter numbers with Children under 10",
+   "relevant": ""
+ },
+ {
+   "type": "end_group",
+   "name": "",
+   "label": "",
+   "hint": "",
+   "relevant": ""
+ },
+ {
+   "type": "begin_group",
+   "name": "hhEconomics",
+   "label": "HOUSEHOLD ECONOMICS",
+   "hint": "",
+   "relevant": ""
+ },
+ {
+   "type": "select_one yes_no",
+   "name": "television",
+   "label": "Does the household have a television?",
+   "hint": "",
+   "relevant": ""
+ },
+ {
+   "type": "select_one yes_no",
+   "name": "radio",
+   "label": "Does the household have a radio?",
+   "hint": "",
+   "relevant": ""
+ },
+ {
+   "type": "select_one yes_no",
+   "name": "cellphone",
+   "label": "Does the household have a cell-phone?",
+   "hint": "",
+   "relevant": ""
+ },
+ {
+   "type": "end_group",
+   "name": "",
+   "label": "",
+   "hint": "",
+   "relevant": ""
+ },
+ {
+   "type": "begin_group",
+   "name": "hhEducation",
+   "label": "HOUSEHOLD EDUCATION",
+   "hint": "",
+   "relevant": ""
+ },
+ {
+   "type": "select_one Educ_Level",
+   "name": "EducLevelHH",
+   "label": "What is the level of education of the head of household?",
+   "hint": "",
+   "relevant": ""
+ },
+ {
+   "type": "select_multiple Educ_Level",
+   "name": "EducLevelAny",
+   "label": "What is the level of education of anyone in the household?",
+   "hint": "",
+   "relevant": ""
+ },
+ {
+   "type": "end_group",
+   "name": "",
+   "label": "",
+   "hint": "",
+   "relevant": ""
+ },
+ {
+   "type": "begin_group",
+   "name": "hhEnvi",
+   "label": "HOUSEHOLD ENVIRONMENT",
+   "hint": "",
+   "relevant": ""
+ },
+ {
+   "type": "select_one yes_no",
+   "name": "hasElec",
+   "label": "Does the household have electricity?",
+   "hint": "",
+   "relevant": ""
+ },
+ {
+   "type": "select_one yes_no",
+   "name": "hasToilet",
+   "label": "Does the household have a latrine or toilet?",
+   "hint": "",
+   "relevant": ""
+ },
+ {
+   "type": "select_one yes_no",
+   "name": "IsShared",
+   "label": "If \"YES\" above, is the facility shared?",
+   "hint": "",
+   "relevant": "${hasToilet} = 'yes'"
+ },
+ {
+   "type": "end_group",
+   "name": "",
+   "label": "",
+   "hint": "",
+   "relevant": ""
+ },
+ {
+   "type": "begin_group",
+   "name": "quesTwo",
+   "label": "CHILDHELP NON-PROFIT ORGANISATION",
+   "hint": "",
+   "relevant": ""
+ },
+ {
+   "type": "",
+   "name": "",
+   "label": "",
+   "hint": "",
+   "relevant": ""
+ },
+ {
+   "type": "begin_group",
+   "name": "hhDemographics",
+   "label": "HOUSEHOLD DEMOGRAPHICS",
+   "hint": "",
+   "relevant": ""
+ },
+ {
+   "type": "integer",
+   "name": "NoOfPleHH",
+   "label": "Number of people in Household",
+   "hint": "",
+   "relevant": ""
+ },
+ {
+   "type": "text",
+   "name": "gender",
+   "label": "Sex of the Head of Household",
+   "hint": "",
+   "relevant": ""
+ },
+ {
+   "type": "integer",
+   "name": "f",
+   "label": "How many females?",
+   "hint": "Enter numbers only",
+   "relevant": ""
+ },
+ {
+   "type": "integer",
+   "name": "m",
+   "label": "How many males?",
+   "hint": "Enter numbers only",
+   "relevant": ""
+ },
+ {
+   "type": "integer",
+   "name": "chdnBlwTen",
+   "label": "How many children (under 10 Years)?",
+   "hint": "Enter numbers with Children under 10",
+   "relevant": ""
+ },
+ {
+   "type": "end_group",
+   "name": "",
+   "label": "",
+   "hint": "",
+   "relevant": ""
+ },
+ {
+   "type": "begin_group",
+   "name": "childData",
+   "label": "CHILD DATA",
+   "hint": "",
+   "relevant": ""
+ },
+ {
+   "type": "integer",
+   "name": "childAge",
+   "label": "Child Age",
+   "hint": "",
+   "relevant": ""
+ },
+ {
+   "type": "decimal",
+   "name": "childWeight",
+   "label": "Child Weight (Kg)",
+   "hint": "",
+   "relevant": ""
+ },
+ {
+   "type": "decimal",
+   "name": "childHeight",
+   "label": "Child Height (cm)",
+   "hint": "",
+   "relevant": ""
+ },
+ {
+   "type": "end_group",
+   "name": "",
+   "label": "",
+   "hint": "",
+   "relevant": ""
+ },
+ {
+   "type": "",
+   "name": "",
+   "label": "",
+   "hint": "",
+   "relevant": ""
+ },
+ {
+   "type": "begin_group",
+   "name": "adultData",
+   "label": "ADULT DATA",
+   "hint": "",
+   "relevant": ""
+ },
+ {
+   "type": "integer",
+   "name": "adultAge",
+   "label": "Adult Age",
+   "hint": "",
+   "relevant": ""
+ },
+ {
+   "type": "select_one inc_Src",
+   "name": "incomeSrc",
+   "label": "Adult Income Source",
+   "hint": "",
+   "relevant": ""
+ },
+ {
+   "type": "end_group",
+   "name": "",
+   "label": "",
+   "hint": "",
+   "relevant": ""
+ },
+ {
+   "type": "end_group",
+   "name": "",
+   "label": "",
+   "hint": "",
+   "relevant": ""
+ }
+]
