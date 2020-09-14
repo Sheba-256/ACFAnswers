@@ -1,0 +1,195 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml" 
+    xmlns:xf="http://www.w3.org/2002/xforms"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/20021/XMLSchema-instance">
+   <head>
+      <title> Data Analyst Intern Answers</title> 
+	  
+	  <IMG SRC="C:\Users\SK\Documents\ACF.jpg" ALT="some text" WIDTH= 200 HEIGHT=300 align="center-left">
+	  
+	 
+	  <br/>
+	  <xf:model>
+         <xf:instance xmlns="">
+           
+			<data>
+               <ProName/>
+			   <IntName/>
+			   <GeoLoc/>
+			   <NumOfPleHs/>
+			   <SexHoH/>
+			   <Fem/>
+			   <Mal/>
+			   <ChnunTen>
+			   <TV/>
+			   <HseRadio/>
+			   <cellphone/>
+			   <lvlEduHoh/>
+			   <lvlEduAny/>
+			   <elec/>
+			   <lat/>
+			   <share/>		   
+			  		   
+            </data>
+			
+			<data1>
+			 <NumOfPleHs/>
+			   <SexHoH/>
+			   <Fem/>
+			   <Mal/>
+			   <ChnunTen>
+			   <ChdAge/>
+			   <ChdWeight/>
+			   <ChdHeight/>
+			   <AdultAge/>
+			   <AdultIncSrc/>   
+			  		   
+            </data1>
+			
+			
+         </xf:instance>
+		 </xf:model>
+   </head>
+   <body>
+   <xf:group nodeset="/data">
+    <h2>BASIDI NON-PROFIT ORGANISATION</h2>
+   <fieldset>
+   <Legend>HOUSEHOLD INFORMATION TEMPLATE</Legend>
+             <xf:label>Project Name:</xf:label>
+			 <input ref="ProName/" ></input>
+         <br/>
+		 
+         
+            <xf:label>Name of Interviewer: </xf:label>
+			<select ref="IntName/" appearance="full">
+			<item><label>Peter</label></item>
+			<item><label>John</label></item>
+			<item><label>Mary<Label></item>
+			</select>
+		           
+            <br/>
+		 
+            <xf:label> Geographical Location:</xf:label>
+			<select ref="GeoLoc//" appearance="full">
+			<item><label>Nairobi</label></item>
+			<item><label>Nakuru</label></item>
+			<item><label>Mombasa<Label></item>
+			</select>
+         <br/>
+		 </fieldset>
+		 <fieldset>
+		 <legend> HOUSEHOLD DEMOGRAPHICS</Legend> 
+		 
+         <xf:label>Number of people in Household:</xf:label>
+		 <input ref="NumOfPleHs/"></input><br/>
+		 <hint> (Number of People in the house)</hint>
+         <br/>
+		 
+		 <xf:label>Sex of the Head of Household:</xf:label>
+		 <input ref="SexHoH/"></input><br/>
+		 <hint> (The sex of the head of household)</hint>
+         <br/>
+		 <xf:label>How many females:</xf:label>
+		 <input ref="Fem/"></input><br/>
+		 <hint>(Number of females in the house)</hint>
+         <br/>
+		 <xf:label>How many males:</xf:label>
+		 <input ref="Mal/"></input>
+		 <br/>
+		 <hint>(Number of males in the house)</hint>
+         <br/>
+		 <xf:label>How many children (under 10 Years)?:</xf:label>
+		 <input ref="ChnunTen/"></input>
+         <br/>
+		 </fieldset>
+		 <fieldset>
+		 <legend> HOUSEHOLD ECONOMICS</Legend> 
+		 
+         <xf:label>Does the household have a television?:</xf:label>
+		 <select1 ref="TV/"><item><label>Yes</label></item> <item>No</item></select1>
+         <br/>
+		 
+		 <xf:label>Does the household have a radio?:</xf:label>
+		 <select1 ref="HseRadio/"><item><label>Yes</label></item> <item>No</item></select1>
+         <br/>
+		 <xf:label>Does the household have a cell phone:</xf:label>
+		 <select1 ref="cellphone/"><item><label>Yes</label></item> <item>No</item></select1>
+        </fieldset>
+		<fieldset>
+		 <legend> HOUSEHOLD EDUCATION</Legend> 
+		 
+         <xf:label>What is the level of education of the head of household?:</xf:label>
+		 <select1 ref="lvlEduHoh//"><item><label>Secondary</label></item> <item>University</item><item>Tertiary</item></select1>
+         <br/>
+		 
+         <xf:label>What is the level of education of anyone in the household?:</xf:label>
+		 <select1 ref="lvlEduAny/"><item><label>Secondary</label></item> <item>University</item><item>Tertiary</item></select1>
+         	 		 
+		 </fieldset>
+		 
+		  <fieldset>
+		 <legend> HOUSEHOLD ENVIROMENT</Legend> 
+		 
+         <xf:label>Does the household have electricity?:</xf:label>
+		 <select1 ref="elec/"><item><label>Yes</label></item> <item>No</item></select1>
+         <br/>
+		 
+		 <xf:label>Does the household have a latrine or toilet?:</xf:label>
+		 <select1 ref="lat/"><item><label>Yes</label><value>Y</value></item> <item>No</item></select1>
+         <br/>
+		 <xf:label>If "YES" above, is the facility shared?:</xf:label>
+		 <select1 ref="share/"><item><label>Yes</label></item> <item>No</item></select1>
+        </fieldset>
+		</xf:group>
+		<xf:group nodeset="/data1">
+    <h2> CHILDHELP NON-PROFIT ORGANISATION</h2>
+		<fieldset>
+		 <legend> HOUSEHOLD DEMOGRAPHICS</Legend> 
+		 
+         <xf:label>Number of people in Household:</xf:label>
+		 <input ref="NumOfPleHs/"></input>
+         <br/>
+		 
+		 <xf:label>Sex of the Head of Household:</xf:label>
+		 <input ref="SexHoH/"></input>
+         <br/>
+		 <xf:label>How many females:</xf:label>
+		 <input ref="Fem/"></input>
+         <br/>
+		 <xf:label>How many males:</xf:label>
+		 <input ref="Mal/"></input>
+         <br/>
+		 <xf:label>How many children (under 10 Years)?:</xf:label>
+		 <input ref="ChnunTen/"></input>
+         <br/>
+		 </fieldset>
+		 <fieldset>
+		 <legend>CHILD DATA</Legend> 
+		 
+         <xf:label>Child Age:</xf:label>
+		 <input ref="ChdAge/"></input>
+         <br/>
+		 
+		 <xf:label>Child Weight (KG):</xf:label>
+		 <input ref="ChdWeight/"></input>
+         <br/>
+		 <xf:label>Child Height (CM):</xf:label>
+		 <input ref="ChdHeight/"></input>
+         <br/>
+		 </fieldset>
+		 <fieldset>
+		 <legend>ADULT DATA </Legend> 
+		 
+         <xf:label>Adult Age:</xf:label>
+		 <input ref="AdultAge/"></input>
+         <br/>
+		 
+		 <xf:label>Adult Income Source:</xf:label>
+		 <select ref="AdultIncSrc/" appearance="minimal"> <item>Employed</item><item>Self-Employed</item><item>Farming</item>
+		 <item>Pastrolism</item><item>None</item><item>Other</item></select>
+         </fieldset>
+		</xf:group>
+		 
+    </body>
+</html>
